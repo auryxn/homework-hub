@@ -1,6 +1,6 @@
 # Homework Hub
 
-> Часть портфолио: [сайт-портфолио](https://auryxn.github.io) — репозиторий сайта [site-admin](https://github.com/auryxn/site-admin).
+> Часть портфолио: [auryxn.codes](https://auryxn.codes) — репозиторий сайта [site-admin](https://github.com/auryxn/site-admin).
 
 > Локальное веб-приложение для управления учебными заданиями из Microsoft Teams: сводит все дедлайны в одну доску и автоматически запускает агентов, которые решают задания.
 
