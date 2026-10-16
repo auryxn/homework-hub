@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Homework Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">📚</span>
+      <h1>Homework Hub</h1>
+    </div>
+    <div class="meta" id="topMeta">Загрузка…</div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="due">По дедлайнам</button>
+    <button class="tab" data-tab="status">По статусам</button>
+    <button class="tab" data-tab="overdue">Просрочено <span class="badge-count" id="overdueCount">0</span></button>
+  </nav>
+
+  <main id="view">
+    <div class="loading">Загрузка заданий…</div>
+  </main>
+
+  <footer class="footer">
+    <span>Homework Hub · локальный сервер · <code id="apiHint">/api/assignments</code></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

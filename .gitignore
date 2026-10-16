@@ -1,0 +1,31 @@
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# runtime data (logs/jobs are generated locally)
+data/logs/
+data/jobs/
+data/agent-queue.txt
+
+# databases
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# logs
+*.log
+*.nohup
+
+# editor / os
+.DS_Store
+.idea/
+.vscode/

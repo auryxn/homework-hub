@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Агент · Homework Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <a class="back" href="index.html">← Назад</a>
+      <h1>Терминал агента</h1>
+    </div>
+    <div class="meta" id="topMeta"></div>
+  </header>
+
+  <main class="detail-wrap">
+    <div class="agent-head" id="agentHead"></div>
+    <div class="agent-bar"><span class="agent-state st-idle" id="agentState">○ агент остановлен</span></div>
+    <pre class="terminal" id="terminal">Ожидание вывода агента…</pre>
+  </main>
+
+  <script src="app.js"></script>
+  <script>HH.initAgent();</script>
+</body>
+</html>
